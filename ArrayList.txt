@@ -1,0 +1,29 @@
+Sort an ArrayList
+
+
+import java.util.ArrayList;                   //packages 
+import java.util.Collections;
+public class Main{
+   public static void main(String[] args){
+    ArrayList<String> cars = new ArrayList<String>();   //syntax of creating an object name cars in arraylist
+    cars.add("lamborghini");
+    cars.add("bmw");
+    cars.add("mercedes-benz");
+    cars.add("rolls-royce");
+    cars.add("toyota");
+    cars.add("audi");
+    cars.add("maruthi-suzuki");
+    cars.add("hyundai");
+    cars.add("honda");
+    cars.add("volkswagen");
+    cars.add("kia");
+    cars.add("mahindra");
+    cars.add("mazerati");
+    cars.add("tata");
+    Collections.sort(cars)      //to arrange the list in order of ascending 
+    for(String i : cars){              //for loop to exihibit cars 
+        System.out.println(i);
+    }
+  }
+}
+    

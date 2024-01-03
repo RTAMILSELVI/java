@@ -1,0 +1,30 @@
+//Sort an LinkedList
+
+
+import java.util.LinkedList;                   //packages 
+import java.util.Collections;
+public class Main{
+   public static void main(String[] args){
+    LinkedList<Integer> numbers = new LinkedList<Integer>();  
+    numbers.add(45);
+    numbers.add(90);
+    numbers.add(67);
+    numbers.add(99);
+    numbers.add(77);
+    numbers.add(5);
+    numbers.add(44);
+    numbers.add(56);
+    numbers.add(68);
+    numbers.add(23);
+    numbers.add(34);
+    numbers.add(12);
+    numbers.add(76);
+    numbers.add(677);
+    Collections.sort(numbers);      //to arrange the list in order of ascending 
+    for(Integer i : numbers){              //for loop to exihibit numbers
+        System.out.println(i);
+    }
+  }
+}
+    
+    
